@@ -14,32 +14,32 @@ Let's see bash file **job.sh**
 a program that does everyday work on the server like cron.
 <some dangerous code>
 ```
-Bash scripts are often used on the server to shorten the duration of the processes and to automate the processes. Suppose that;
+#### Bash scripts are often used on the server to shorten the duration of the processes and to automate the processes. Suppose that;
 
-Let's see that when we run the \*\*sudo -l\*\* command, we can run the above python script with root privileges for our active user.
+#### Let's see that when we run the \*\*sudo -l\*\* command, we can run the above python script with root privileges for our active user.
 
-I can hear you saying I wish I could edit the job.sh file. In this case, we have to resort to path hijacking. Path hijacking changes the active path environment. In other words, it provides a manipulation as if I ran the program in the directory I want, not in the directory it is in. If I set my path to /tmp: the program will run any job.sh file in the /tmp directory.
+#### I can hear you saying I wish I could edit the job.sh file. In this case, we have to resort to path hijacking. Path hijacking changes the active path environment. In other words, it provides a manipulation as if I ran the program in the directory I want, not in the directory it is in. If I set my path to /tmp: the program will run any job.sh file in the /tmp directory.
 
-Of course, although it is easy to explain, there are exceptions. Let's go through a machine on hackthebox together. Since the machine is active I will censor the machine name and ip address.
+#### Of course, although it is easy to explain, there are exceptions. Let's go through a machine on hackthebox together. Since the machine is active I will censor the machine name and ip address.
 
 .
 
 ![](https://github.com/capitansec/Path-Hijacking/blob/main/Pasted%20image%2020210602162328.jpg)
 
-Here is a file called index.go that we can run with root privileges. Let's look at the source codes.
+#### Here is a file called index.go that we can run with root privileges. Let's look at the source codes.
 
 
 ![](https://github.com/capitansec/Path-Hijacking/blob/main/Pasted%20image%2020210602162413.png)
 .
 
-Running the deploy.sh file in it. I go to the /tmp directory and rewrite my own deploy.sh file to get a reverseshell.
+#### Running the deploy.sh file in it. I go to the /tmp directory and rewrite my own deploy.sh file to get a reverseshell.
 
 ![](https://github.com/capitansec/Path-Hijacking/blob/main/Pasted%20image%2020210602162600.png)
 
 ![](https://github.com/capitansec/Path-Hijacking/blob/main/Pasted%20image%2020210602162821.png)
 .
 
-I add a new directory to the path with Export. /tmp directory. So that it can read my deploy.sh even though my file is not in the same directory as it. Hijacking is done here.
+#### I add a new directory to the path with Export. /tmp directory. So that it can read my deploy.sh even though my file is not in the same directory as it. Hijacking is done here.
 
 .
 ![](https://github.com/capitansec/Path-Hijacking/blob/main/Pasted%20image%2020210602163644.png)
