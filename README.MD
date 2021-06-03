@@ -24,7 +24,7 @@ I can hear you saying I wish I could edit the job.sh file. In this case, we have
 Of course, although it is easy to explain, there are exceptions. Let's go through a machine on hackthebox together. Since the machine is active I will censor the machine name and ip address.
 
 
-![](Pasted image 20210602162328.jpg)
+![](https://github.com/capitansec/Path-Hijacking/blob/main/Pasted%20image%2020210602162328.jpg)
 
 
 Here is a file called index.go that we can run with root privileges. Let's look at the source codes.
