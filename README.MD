@@ -14,7 +14,7 @@ Let's see bash file **job.sh**
 a program that does everyday work on the server like cron.
 <some dangerous code>
 ```
-
+<img align="right" width="100" height="100" src="https://github.com/capitansec/Path-Hijacking/blob/main/Pasted%20image%2020210602163615%201.png">
 Bash scripts are often used on the server to shorten the duration of the processes and to automate the processes. Suppose that;
 
 Let's see that when we run the \*\*sudo -l\*\* command, we can run the above python script with root privileges for our active user.
