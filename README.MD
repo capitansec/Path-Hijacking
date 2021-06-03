@@ -43,7 +43,6 @@ I add a new directory to the path with Export. /tmp directory. So that it can re
 
 ![](https://github.com/capitansec/Path-Hijacking/blob/main/Pasted%20image%2020210602163615%201.png)
 
-##PWNED!
-
+## PWNED!
 
 
