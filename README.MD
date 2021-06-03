@@ -21,6 +21,9 @@ Let's see that when we run the \*\*sudo -l\*\* command, we can run the above pyt
 I can hear you saying I wish I could edit the job.sh file. In this case, we have to resort to path hijacking. Path hijacking changes the active path environment. In other words, it provides a manipulation as if I ran the program in the directory I want, not in the directory it is in. If I set my path to /tmp: the program will run any job.sh file in the /tmp directory.
 
 Of course, although it is easy to explain, there are exceptions. Let's go through a machine on hackthebox together. Since the machine is active I will censor the machine name and ip address.
+
+.
+
 ![](https://github.com/capitansec/Path-Hijacking/blob/main/Pasted%20image%2020210602162328.jpg)
 
 Here is a file called index.go that we can run with root privileges. Let's look at the source codes.
