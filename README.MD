@@ -1,6 +1,6 @@
 # PATH HİJACKİNG
 
-### Path hijaking is used to manipulate the directory where the program will run. Let's consider a python program like the one below. A python script that runs **job.sh** written in bash language. Of course, in the real scenario, this python script will be more complicated. For easy understanding, I will continue with python as an example.
+#### Path hijaking is used to manipulate the directory where the program will run. Let's consider a python program like the one below. A python script that runs **job.sh** written in bash language. Of course, in the real scenario, this python script will be more complicated. For easy understanding, I will continue with python as an example.
 
 ```python
 import os
