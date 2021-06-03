@@ -14,7 +14,6 @@ Let's see bash file **job.sh**
 a program that does everyday work on the server like cron.
 <some dangerous code>
 ```
-<img align="right" width="100" height="100" src="https://github.com/capitansec/Path-Hijacking/blob/main/Pasted%20image%2020210602163615%201.png">
 Bash scripts are often used on the server to shorten the duration of the processes and to automate the processes. Suppose that;
 
 Let's see that when we run the \*\*sudo -l\*\* command, we can run the above python script with root privileges for our active user.
@@ -24,7 +23,7 @@ I can hear you saying I wish I could edit the job.sh file. In this case, we have
 Of course, although it is easy to explain, there are exceptions. Let's go through a machine on hackthebox together. Since the machine is active I will censor the machine name and ip address.
 
 
-![](https://github.com/capitansec/Path-Hijacking/blob/main/Pasted%20image%2020210602162328.jpg)
+<center>![](https://github.com/capitansec/Path-Hijacking/blob/main/Pasted%20image%2020210602162328.jpg)</center>
 
 
 Here is a file called index.go that we can run with root privileges. Let's look at the source codes.
